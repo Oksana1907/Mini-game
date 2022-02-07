@@ -1,0 +1,20 @@
+.row {
+    display: flex;
+}
+.field,
+.tree,
+.person {
+    width: 80px;
+    height: 80px;
+    background-color: darkgreen;
+}
+.tree{
+    background-image: url(img/tree.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.person {
+    background-image: url(img/person.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
